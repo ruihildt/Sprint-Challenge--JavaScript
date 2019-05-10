@@ -40,9 +40,11 @@ const greeting = function (param1, param2) {
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-
-
 // Explanation: 
+// `nestedfunction()` can access the variable `internal` because most of the time 
+// variable in the parent function can be seen from the nested function.
+// Nested function has access to whatever variable are outside in the parent function
+// and grand parent function 
 
 
 const external = "I'm outside the function";
