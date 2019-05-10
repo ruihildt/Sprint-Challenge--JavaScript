@@ -6,10 +6,10 @@
   Create a constructor function named CuboidMaker that accepts properties for length, width, and height
 */
 
-function CuboidMaker (dataCubMaker) {
-  this.length = dataCubMaker.length;
-  this.width = dataCubMaker.width;
-  this.height = dataCubMaker.height;
+function CuboidMaker (dataCuboidMaker) {
+  this.length = dataCuboidMaker.length;
+  this.width = dataCuboidMaker.width;
+  this.height = dataCuboidMaker.height;
 }
 
 /* == Step 2: Volume Method ==
@@ -47,5 +47,3 @@ const cuboid = new CuboidMaker ({
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 // console.log(cuboid.volume()); // 100
 // console.log(cuboid.surfaceArea()); // 130
-
-
