@@ -30,32 +30,56 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+`.forEach` and `.map` are both array methods. the biggest difference is that `.map` will return a new array, while `.forEach` mutate the array.
+
+
 2. What is the difference between a function and a method?
+
+A function is called by its name, and will process any data directly passed to it, while a method is a specific type of function that is associated to an object that is implicitely passed to it.
+
 
 3. What is closure?
 
+A closure is an expression that can reference variables together in an enclosed environment (the scope when it was declared).
+
+
 4. Describe the four rules of the 'this' keyword.
 
+* Outside of any function, the `this` keyword refers (or is "bound") to
+the global scope,the giant soup/object. (and called in browsers,
+the window object).
+
+* When called  by a function, `this` is bound to the closer hierarchical
+object (or closest parent object).
+
+* When this is used in a constructor function, this is bound to to the newly created object.
+
+* It is possible to explicitely bind `this` by using .call or .apply and override the constructor
+
+
 5. Why do we need super() in an extended class?
+
+When using class syntactic sugar, super() will allow to access and call functions on an object's parent, abstracting the Object.create() method.
+
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
